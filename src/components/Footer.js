@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import "../color/Theme.js";
 
 const FooterArea = styled.footer`
   width: 100%;
@@ -18,12 +20,12 @@ const FooterAreaTop = styled.div`
 const FooterAreaContent = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${(props) => props.theme.blackColor};
-  color: ${(props) => props.theme.whiteColor};
+ 
   display: flex;
   flex-direction: row;
   padding: 20px;
 `;
+
 
 const Footer = () => {
   return (

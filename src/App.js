@@ -10,12 +10,14 @@ const App = () => {
   return (
     <Router>
       <div>
+       {/* HEADER */}
         <Header />
         <Routes>
           <Route path="/main" element={<Main />} />
           <Route path="/sub-main1" element={<SubMain1 />} />
           <Route path="/sub-main2" element={<SubMain2 />} />
         </Routes>
+         {/* FOOTER */}
         <Footer />
       </div>
     </Router>

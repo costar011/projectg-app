@@ -16,8 +16,17 @@
 - [] Home
 - [] About
 
-# Theme Color
-    - #f5abdc
+## Screen
+
+| 번호 | 화면명(영어) | 화면코드 | 연결 URL |
+| :--- | :----------- | :------- | :------- |
+| 1    | Header     | header | "/"      |
+| 2    | Main     | main | "/main"      |
+| 3    | SubMain1     | subMain1 | "/subMain1"      |
+| 4    | SubMain2     | subMain2 | "/subMain2"      |
+| 5    | screen05     | screen05 | "/"      |
+| 6    | Footer     | footer | "/footer"      |
+
 
 ### React Project Needs Babel Packpage
     - npm install react-router-dom -d || yarn add react-router-dom -d

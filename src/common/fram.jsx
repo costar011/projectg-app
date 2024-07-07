@@ -5,11 +5,8 @@ import {
   WHITE_COLOR,
   BLACK_COLOR,
   RIGHT_PINK_COLOR,
-} from "./color/Theme";
-
-
-const BORDER_RADIUS = `15px`;
-
+  DARK_PINK_COLOR,
+} from "../color/Theme";
 
 export const Wrapper = styled.div`
   width: 100%;
