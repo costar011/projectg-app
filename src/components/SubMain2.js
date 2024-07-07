@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SubMain2 = () => {
     return (
       <div>
