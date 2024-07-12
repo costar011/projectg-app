@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { DARK_PINK_COLOR, RIGHT_PINK_COLOR } from "../color/Theme";
+import Signup from "./Signup";
 
 const HeaderArea = styled.div`
   width: 100%;
@@ -80,7 +81,7 @@ const ActionButton = styled.button`
 const menuItems = [
   { label: "Main", path: "/main" },
   { label: "Sub Main 1", path: "/sub-main1" },
-  { label: "Sub Main 2", path: "/sub-main2" },
+  { label: "Email", path: "/Email" },
 ];
 
 const Header = () => {
