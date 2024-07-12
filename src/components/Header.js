@@ -100,7 +100,7 @@ const Header = () => {
       ))}
       <InnerWrapper width={`200px`}>
         <ActionButton>SIGN IN</ActionButton>
-        <ActionButton>SIGN UP</ActionButton>
+        <ActionButton><Link to={"/SignUp"}/>SIGN UP</ActionButton>
       </InnerWrapper>
     </HeaderArea>
   );
