@@ -28,6 +28,9 @@ const InputField = styled.input`
   border-radius: 4px;
 `;
 
+
+const InputBtn = styled.button``;
+
 const Button = styled.button`
   width: 300px;
   padding: 0.5rem;
