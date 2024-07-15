@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { DARK_PINK_COLOR, RIGHT_PINK_COLOR } from "../color/Theme";
-import Signup from "./Signup";
 
 const HeaderArea = styled.div`
   width: 100%;
@@ -99,7 +98,7 @@ const Header = () => {
         </StyledLink>
       ))}
       <InnerWrapper width={`200px`}>
-        <ActionButton>SIGN IN</ActionButton>
+        <ActionButton><Link to={"/"}/>SIGN IN</ActionButton>
         <ActionButton><Link to={"/SignUp"}/>SIGN UP</ActionButton>
       </InnerWrapper>
     </HeaderArea>

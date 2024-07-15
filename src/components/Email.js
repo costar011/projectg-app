@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
 const RegisterPage = styled.div`
   display: flex;
@@ -28,9 +28,6 @@ const InputField = styled.input`
   border-radius: 4px;
 `;
 
-
-const InputBtn = styled.button``;
-
 const Button = styled.button`
   width: 300px;
   padding: 0.5rem;
@@ -42,12 +39,12 @@ const Button = styled.button`
 `;
 
 const Email = () => {
-  const [email, setEmail] = useState('');
-  const [authCode, setAuthCode] = useState('');
-  const [name, setName] = useState('');
-  const [userId, setUserId] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [authCode, setAuthCode] = useState("");
+  const [name, setName] = useState("");
+  const [userId, setUserId] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -63,12 +60,15 @@ const Email = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <InputField
-          type="text"
-          placeholder="Authentication Code"
+
+        <Button
+          type="submit"
           value={authCode}
           onChange={(e) => setAuthCode(e.target.value)}
-        />
+        >
+          Authentication Code
+        </Button>
+
         <InputField
           type="text"
           placeholder="Name"
