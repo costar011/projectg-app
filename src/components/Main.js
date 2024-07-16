@@ -86,9 +86,6 @@ const Main = () => {
           <button>검색</button>
         </Search>
       </Header>
-      <MainWrapper>
-        <div></div>
-      </MainWrapper>
     </BodyWrapper>
   );
 };

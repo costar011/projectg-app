@@ -31,10 +31,22 @@ const InputField = styled.input`
 const Button = styled.button`
   width: 300px;
   padding: 0.5rem;
+  margin-bottom: 1rem;
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+`;
+
+const AuthCodeBtn = styled.button`
+  width: 300px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #20d408;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 `;
 
@@ -61,13 +73,13 @@ const Email = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <Button
+        <AuthCodeBtn
           type="submit"
           value={authCode}
           onChange={(e) => setAuthCode(e.target.value)}
         >
           Authentication Code
-        </Button>
+        </AuthCodeBtn>
 
         <InputField
           type="text"
