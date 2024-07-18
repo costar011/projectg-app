@@ -75,8 +75,12 @@ const ActionButton = styled.button`
     color: #fff;
     color: ${RIGHT_PINK_COLOR};
   }
-`;
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+`;
 const menuItems = [
   { label: "Main", path: "/main" },
   { label: "Sub Main 1", path: "/sub-main1" },
@@ -98,8 +102,12 @@ const Header = () => {
         </StyledLink>
       ))}
       <InnerWrapper width={`200px`}>
-        <ActionButton><Link to={"/"}/>SIGN IN</ActionButton>
-        <ActionButton><Link to={"/SignUp"}/>SIGN UP</ActionButton>
+        <ActionButton>
+          <Link to={"/SIGNIN"}>SIGN IN</Link>
+        </ActionButton>
+        <ActionButton>
+          <Link to={"/SignUp"}>SIGN UP</Link>
+        </ActionButton>
       </InnerWrapper>
     </HeaderArea>
   );
