@@ -126,11 +126,12 @@ const Main = () => {
             </LogoItem>
           ))}
         </LogoContainer>
-        <RecommendationSection>
+       
+      </MainWrapper>
+      <RecommendationSection>
           <RecommendationTitle>추천 콘텐츠</RecommendationTitle>
           <RecommendationImage src="recommended-image.jpg" alt="추천 이미지" />
         </RecommendationSection>
-      </MainWrapper>
     </BodyWrapper>
   );
 };
